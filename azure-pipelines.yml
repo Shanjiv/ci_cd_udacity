@@ -1,7 +1,7 @@
 trigger:
 - main
 
-pool: 
+pool:
   name: myAgentPool
 
 stages:
@@ -24,13 +24,27 @@ stages:
         python -m unittest discover
       displayName: 'Run tests'
 
+    - script: |
+        zip -r $(Build.ArtifactStagingDirectory)/app.zip .
+      displayName: 'Create ZIP package'
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: $(Build.ArtifactStagingDirectory)
+        ArtifactName: drop
+        publishLocation: 'Container'
+
 - stage: Deploy
+  dependsOn: Build
   jobs:
   - job: DeployJob
     steps:
+    - download: current
+      artifact: drop
+
     - task: AzureWebApp@1
       inputs:
         azureSubscription: 'ci-cd-connection'
         appName: 'ci-cd-udacity-shan'
-        package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        package: '$(Pipeline.Workspace)/drop/app.zip'
       displayName: 'Deploy to Azure WebApp'
