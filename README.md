@@ -13,7 +13,7 @@ This project demonstrates the deployment of a Flask machine learning application
 
 Below is the architectural diagram that shows how the key components of the system work together:
 
-![Architectural Diagram](screenshots/cd_diagramm.png))
+![Architectural Diagram](screenshots/architecture.png))
 
 ### Steps to Run the Project
 
