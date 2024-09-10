@@ -93,3 +93,5 @@ To improve the project in the future, consider the following enhancements:
 ## Demo of workflow
 
 Watch a screencast of the project in action on YouTube: [Project Demo](https://www.youtube.com/watch?v=-POkTBa51is)
+
+[![Python application test with Github Actions](https://github.com/Shanjiv/ci_cd_udacity/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Shanjiv/ci_cd_udacity/actions/workflows/pythonapp.yml)
