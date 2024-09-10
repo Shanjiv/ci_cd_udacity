@@ -90,6 +90,6 @@ To improve the project in the future, consider the following enhancements:
 - Integrate with a database to persist predictions and model metadata.
 - Optimize the CI/CD pipeline for faster deployment times.
 
-## Demo of work
+## Demo of workflow
 
 Watch a screencast of the project in action on YouTube: [Project Demo](<TODO: Insert Screencast YouTube link>)
