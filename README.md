@@ -48,7 +48,7 @@ Follow these instructions to set up and run the project:
 4. **Deploy to Azure App Service**
    - Use the Azure CLI to deploy the application:
      ```bash
-     az webapp up --name <your-webapp-name> --resource-group Azuredevops --location westeurope
+     ./commands.sh
      ```
    - **Screenshot**: Project running on Azure App Service
    - ![App Running](screenshots/deployed_webapp.png)
