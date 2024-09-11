@@ -44,6 +44,10 @@ Follow these instructions to set up and run the project:
      ```
    - **Screenshot**: Passing tests that are displayed after running the `make all` command from the `Makefile`
    - ![Tests Passed](screenshots/tests_passed.png)
+  
+   - Run app.py to check if the flask app is working
+   - **Screenshot**: Running flask app in the cloud shell
+   - ![Tests Passed](screenshots/run_app.png)
 
 4. **Deploy to Azure App Service**
    - Use the Azure CLI to deploy the application:
