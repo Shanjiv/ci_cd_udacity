@@ -92,6 +92,6 @@ To improve the project in the future, consider the following enhancements:
 
 ## Demo
 
-Watch a screencast of the project in action on YouTube: [Project Demo](https://www.youtube.com/watch?v=-POkTBa51is)
+Watch a screencast of the project in action on YouTube: [Project Demo](https://youtu.be/NZzEsYRHD-A)
 
 [![Python application test with Github Actions](https://github.com/Shanjiv/ci_cd_udacity/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Shanjiv/ci_cd_udacity/actions/workflows/pythonapp.yml)
