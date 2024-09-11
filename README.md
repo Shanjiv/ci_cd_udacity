@@ -4,7 +4,7 @@ This project demonstrates the deployment of a Flask machine learning application
 
 ## Project Plan
 
-- **Trello Board**: [Link to Trello Board](<https://trello.com/invite/b/66cb31460463c109026458a4/ATTI913d8b5d37aa9f5f33dadba2fecdb6d6F0E5DF65/udacity-board>)
+- **Trello Board**: [Link to Trello Board](https://trello.com/b/3hefNiSw/udacity-board)
 - **Project Plan Spreadsheet**: [Link to Project Plan](<https://docs.google.com/spreadsheets/d/1MeaFSpnKaqYc1oUi7KAGFZoGGMZVdHVnMz2N1sabxWQ/edit?usp=sharing>)
 
 ## Instructions
